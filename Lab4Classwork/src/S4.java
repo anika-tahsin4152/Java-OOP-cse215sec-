@@ -25,14 +25,12 @@ public class S4 {
             System.out.println("The second string should smaleer than the first one length");
         }
         if (s1.substring(0, n2).equals(s2)) {
-            System.out.println("String" + s1 + "Starts with String "+s2);
+            System.out.println("String" + s1 + "Starts with String " + s2);
+        } else if (s1.substring(n1 - n2, n1 - 1).equals(s2)) {
+            System.out.println("String" + s1 + "Starts with String " + s2);
+        } else {
+            System.out.println("String" + s1 + "has no match with " + s2);
         }
-        else if (s1.substring(n1-n2,n1-1).equals(s2)) {
-            System.out.println("String" + s1 + "Starts with String "+s2);
-        }
-        else{
-            System.out.println("String"+s1+ "has no match with "+s2);
-        }
-        
+
     }
 }

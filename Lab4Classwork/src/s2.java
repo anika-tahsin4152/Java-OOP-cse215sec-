@@ -6,17 +6,17 @@ import java.util.Scanner;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Hridi
  */
 public class s2 {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String st = sc.nextLine();
-        
-        switch(st){
+
+        switch (st) {
             case "one":
                 System.out.println("Entered 1");
                 break;
@@ -26,11 +26,11 @@ public class s2 {
             case "three":
                 System.out.println("Entered 3");
                 break;
-                
-           default:
+
+            default:
                 System.out.println("anything else");
-                
+
         }
     }
-    
+
 }
