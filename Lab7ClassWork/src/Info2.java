@@ -11,12 +11,16 @@
 public class Info2  {
 
     public static void main(String[] args) {
-        Info1 obj = new Info1();
-//        
-       obj.setStr("Anika");
-        System.out.println("We set the variable "+obj.getStr());
+//        Info1 obj = new Info1();
+////        
+//       obj.setStr("Anika");
+//        System.out.println("We set the variable "+obj.getStr());
+//    
+//       obj.setStr("Airah");
+//        System.out.println("We set the variable "+obj.getStr());
     
-       obj.setStr("Airah");
-        System.out.println("We set the variable "+obj.getStr());
+    Info1 obj1 = new Info1(2, "anika");
+    obj1.printValue();
+    
     }
 }

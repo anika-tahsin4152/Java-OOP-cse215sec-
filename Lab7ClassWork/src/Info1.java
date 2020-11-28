@@ -12,23 +12,34 @@ public class Info1 {
 //    private int a= 5;
 //    
     
-    private String str="ANika ";
-    public int id;
-
-    public String getStr() {
-        return str;
-    }
-
-    public void setStr(String str) {
-        this.str = str;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
+//    private String str="ANika ";
+//    public int id;
+//
+//    public String getStr() {
+//        return str;
+//    }
+//
+//    public void setStr(String str) {
+//        this.str = str;
+//    }
+//
+//    public int getId() {
+//        return id;
+//    }
+//
+//    public void setId(int id) {
+//        this.id = id;
+//    }
+//    
     
+    int a;
+    String str;
+    public Info1(int a, String str){
+        this.a=a;
+        this.str= str;
+    
+    }
+    void printValue(){
+        System.out.println("you have entered  "+a+ "and "+str);
+    }
 }
