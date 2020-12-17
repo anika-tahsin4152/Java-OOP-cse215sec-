@@ -11,7 +11,7 @@
 public class Circle extends GeometricObject {
 
     private double radius;
-   public double Area;
+    public double Area;
     public double peremeter;
 
     //private radius ;
