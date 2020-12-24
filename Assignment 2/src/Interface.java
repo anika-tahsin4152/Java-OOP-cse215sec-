@@ -23,6 +23,9 @@ public class Interface {
 //    rec.getLength();
 //    rec.getWidth();
 //    
-        
+        System.out.println(us);
+        System.out.println(rec.getLength()+rec.getWidth());
+        System.out.println(circ.CircArea(5.8)+ circ.circCircumference(4.6));
+        System.out.println(tri.AreaTriangle()+tri.triPerimeter()+tri.getBase()+tri.getHeight());
     }
 }
