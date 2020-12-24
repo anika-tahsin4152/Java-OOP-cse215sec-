@@ -14,8 +14,7 @@ public class Interface {
 
         User us = new User();
         us.getEmail();
-        us.getId();
-        us.getName();
+       
         Rectangle rec = new Rectangle(5, 10);
         Circle circ = new Circle(5.8);
         Triangle tri = new Triangle(5, 7);
@@ -23,6 +22,9 @@ public class Interface {
 //    rec.getLength();
 //    rec.getWidth();
 //    
-        
+        System.out.println(us);
+        System.out.println(rec.getLength()+rec.getWidth());
+        System.out.println(circ.CircArea(5.8)+ circ.circCircumference(4.6));
+        System.out.println(tri.AreaTriangle()+tri.triPerimeter()+tri.getBase()+tri.getHeight());
     }
 }
