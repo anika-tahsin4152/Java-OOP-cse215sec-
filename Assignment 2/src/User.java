@@ -40,19 +40,25 @@ public class User {
         this.email = email;
         
     }
-    public boolean verifyEmail(String email){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter youe Email: ");
-        sc.nextLine();
-        String em = "anikahridi066@gmail.com" ;
+//     public boolean verifyEmail(String email){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter youe Email: ");
+//         sc.nextLine();
+//         String em = "anikahridi066@gmail.com" ;
         
-        if(em.equals( email)){
-            System.out.println("Your email is received correctly");
+//         if(em.equals( email)){
+//             System.out.println("Your email is received correctly");
+//         }
+//         else{
+//             System.out.println("Your email is incorrect");
+//         }
+//         return false;
+        public boolean verifyEmail(String email){// verify email
+        if(email.endsWith(".com") && email.contains("@")){
+            return true;
         }
         else{
-            System.out.println("Your email is incorrect");
-        }
-        return false;
-        
+            return false;
+
     }
 }
