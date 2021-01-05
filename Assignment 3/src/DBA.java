@@ -36,7 +36,7 @@ public class DBA extends Employees {
 
 
     public void printEmploymentYears(String working_since) {
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         int working_year, previous = 0, running = 0;
         working_year = running - previous;
         System.out.println("Emplyment Working years:" + working_year);
