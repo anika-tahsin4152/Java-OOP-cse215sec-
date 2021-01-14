@@ -25,9 +25,11 @@ public class Test {
         products.add(p3);
 
         for (int i = 0; i < products.size(); i++) {
-            if (products.get(i) instanceof ClothingItem) {
+            if (products.get(i) instanceof ClothingItem) 
+            {
                 System.out.println((ClothingItem) (products.get(i)));
-            } else if (products.get(i) instanceof ElectronicDevice) {
+            } else if (products.get(i) instanceof ElectronicDevice)
+            {
                 System.out.println((ElectronicDevice) (products.get(i)));
             }
 
